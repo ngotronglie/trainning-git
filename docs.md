@@ -43,3 +43,44 @@ bấm mũi tên lên để lấy lệnh cũ
 
 `rm -d "name folder"`: xóa folder rỗng
 
+# english
+
+- repository (repo): kho lưu trư
+- commit (commit): cam ket - 1 don vi lam viec 
+- branch (branch): nhanh
+- main/master (master): ten repo chinh 
+- merge/ rebase : ket hop 2 nhanh 
+- develop: ten cua nhanh lap trinh vien
+
+
+# git commands
+
+`git --help`: help 
+
+`git --version`: version show
+
+`git status`: hien thi trang thai kho luu tru
+
+`git init`: khoi tao 1 repo trong
+
+`git log`: hien thi lich su commit
+
+`git clone 'link'`: keo repo tu github ve
+
+`git config -l`: xem cau hinh hien tai
+
+`git config -l [--scope] [option_name] [value]`: 
+
+**scope**
+  -  -- system: tat ca nguoi dung
+  -  -- global: lien quan toi repo(s)
+  -  -- local: lien quan den 1 repo 
+
+
+```
+git config -l --global     :  thong tin nguoi co trong repo
+git config -l --local      : 
+
+```
+
+
